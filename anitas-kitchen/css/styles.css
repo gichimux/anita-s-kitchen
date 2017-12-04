@@ -75,11 +75,20 @@ header{
 	line-height:60px;
 	border-bottom:1px solid #dddddd;
 }
+.drink {
+  border: 3px white;
+  padding: 30px;
+  margin; 30px;
+  width;
+  text-align: center;
+  float: left;
+  
+}
 .hamburger{
   background:none;
   position:absolute;
   top:0;
-  right:100%;
+  right:0;
   line-height:45px;
   padding:5px 15px 0px 15px;
   color:#999;
