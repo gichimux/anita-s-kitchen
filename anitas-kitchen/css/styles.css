@@ -12,7 +12,7 @@
 img{
 display: block;
 margin: auto;
-padding: 0%;
+padding: 1%;
 
 }
 .header {
@@ -31,10 +31,9 @@ padding: 0%;
   padding: 30px;
   margin; 30px;
   width;
-  text-align: center;
+  text-align: left;
   float: left;
-  text-align: center;
-}
+  }
 .food-img {
   border: 6px white;
   padding: 6px;
@@ -80,9 +79,9 @@ header{
   padding: 30px;
   margin; 30px;
   width;
-  text-align: center;
+  text-align: right;
   float: left;
-  
+
 }
 .hamburger{
   background:none;
