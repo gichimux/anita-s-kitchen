@@ -79,7 +79,7 @@ header{
   background:none;
   position:absolute;
   top:0;
-  right:0;
+  right:100%;
   line-height:45px;
   padding:5px 15px 0px 15px;
   color:#999;
