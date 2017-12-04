@@ -15,7 +15,7 @@ margin: auto;
 padding: 0%;
 
 }
-p {
+.header {
   font-size: 40px;
   font-family: 'Ovo', serif;
   text-align: center;
@@ -24,5 +24,38 @@ p {
 }
 .column {
     float: right;
-    width: ;
+    text-align: center;
+}
+.fast-food {
+  border: 3px white;
+  padding: 30px;
+  margin; 30px;
+  width;
+  text-align: center;
+  float: left;
+  text-align: center;
+}
+.food-img {
+  border: 6px white;
+  padding: 6px;
+  align: left;
+  margin-left: 5%;
+  float: left;
+  box-shadow: 5px 5px 5px 5px #ccc;
+}
+
+#column2 img{
+  display: inline;
+  border: 6px white;
+  padding: 6px;
+  float: right;
+  box-shadow: 5px 5px 5px 5px #ccc;
+
+}
+#text1 {
+  float: left;
+}
+.text2 {
+  float: left;
+  width: 50%;
 }
