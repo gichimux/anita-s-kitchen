@@ -1,0 +1,28 @@
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(../img/landing.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    height: 636px;
+    
+}
+img{
+display: block;
+margin: auto;
+padding: 0%;
+
+}
+p {
+  font-size: 40px;
+  font-family: 'Ovo', serif;
+  text-align: center;
+
+
+}
+.column {
+    float: right;
+    width: 25%;
+}
