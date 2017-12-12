@@ -96,7 +96,9 @@ margin: auto;
 }
 li {
   display: inline-block;
-  margin: auto;w}
+  margin: auto;
+}
+
 .text-box {
   background-color:;
   border: ;
@@ -105,4 +107,24 @@ li {
 ul {
   background-color: white;
   padding: 2%;
+}
+#happy {
+  text-align: middle;
+}
+h3 {
+  color: #F15A29;
+}
+.text-box {
+  box-shadow: 2px 2px 2px 2px #ccc;
+}
+.email {
+  background-image: url(../img/subscribe.jpg);
+  height: 301px;
+}
+.footer {
+  background-color: #F15A29;
+  height: 301px;
+}
+#burger {
+  float: center;
 }
