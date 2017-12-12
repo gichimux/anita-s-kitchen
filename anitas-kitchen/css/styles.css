@@ -120,11 +120,18 @@ h3 {
 .email {
   background-image: url(../img/subscribe.jpg);
   height: 301px;
+  color: white;
+  text-align: center;
 }
 .footer {
   background-color: #F15A29;
   height: 301px;
+  text-align: center;
+  color: white;
 }
 #burger {
+display: block;
+}
+.form-group {
   float: center;
 }
