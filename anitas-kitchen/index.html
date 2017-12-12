@@ -1,103 +1,109 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/styles.css" "css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href= "css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href= "css/styles.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Ovo" rel="stylesheet">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/script.js"></script>
     <title>Anita's kitchen</title>
-    <header>
-  <button class="hamburger">&#9776;</button>
-  <button class="cross">&#735;</button>
-</header>
 
-<div class="menu">
-  <ul>
-    <a href="#"><li>CONTACTS</li></a>
-    <a href="#"><li>EVENTS</li></a>
-    <a href="#"><li>MENU</li></a>
-  </ul>
-</div>
   </head>
     <body>
     <div class="container">
       <div class="row">
         <div class="jumbotron">
-          <div class="cont">
+            <div class="logo">
             <img src="img/logoBig.png">
+          </div>
             <span class="header">
-
               <p>We Provide The Right Food</p>
               <p> At The <strong>Right Price</strong></p>
             </span>
           </div>
         </div>
       </div>
-    </div>
+<div class="food1">
     <div class="container">
       <div class="row">
-        <div class="column"><img src="img/breakfast.jpg"></div>
-        <div class="column"><img src="img/lunch.jpg"></div>
-        <div class="column"><img src="img/dinner.jpg"></div>
+          <div class="col-md-3">
+            <div class="header">
+            <div class="row" id="happy-hour"><p>Happy Hour</p></div>
+            <div class="row" id="party-time"><p>Party Time</p></div>
+          </div>
+          </div>
 
-      </div>
+        <div class="col-md-3" id="break"><img src="img/breakfast.jpg"></div>
+        <div class="col-md-3" id="lunch"><img src="img/lunch.jpg"></div>
+        <div class="col-md-3" id="dinner"><img src="img/dinner.jpg"></div>
+</div>
+</div>
+
     </div>
+   </div>
+ </div>
+ <br/>
+ <div class="fast-food">
     <div class="container">
-        <div class="row">
-          <div class="fast-food">
-            <span class="food-img">
+      <div class="row">
+      <div class="col-lg-12">
+            <div id="food-img">
             <img src="img/fastFood1.jpg">
             <img src="img/fastFood2.jpg">
-            </span>
-                <div class="food-text">
+          </div>
+            <div id="text1">
             <h1>Fast food</h1>
             <h2>you'll love our delicious fast food</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus molestie semper rhoncus. Mauris lobortis purus lacus, id fermentum massa tristique in. Phasellus sed faucibus ex. Pellentesque condimentum vestibulum arcu, nec pretium mi iaculis ut. Nam a ante condimentum, pellentesque augue eu, vestibulum lorem. Pellentesque laoreet ante lacus. Nunc non nulla dolor. Morbi tincidunt, lorem in malesuada pretium, ipsum arcu egestas eros, eu condimentum neque elit id augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer libero ex, luctus et malesuada sit amet, sollicitudin vitae augue. Sed interdum velit ligula, et sollicitudin tellus volutpat id. Etiam pellentesque in arcu sed blandit. Etiam tristique feugiat orci at euismod. Ut tortor nisl, ullamcorper eu enim sed, vehicula pellentesque sem.
+            <p>Lorem ipsum dolor sit amet, conulis ut. Nam a ante condimentum, pellentesque augue eu, vestibulum lorem. Pellentesque laoreet ante lacus. Nunc non nulla dolor. Morbi tincidunt, lorem in malesuada pretium, ipsum arcu egestas eros, eu condimentum neque elit id augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer libero ex, luctus et malesuada sit amet, sollicitudin vitae augue. Sed interdum velit ligula, et sollicitudin tellus volutpat id. Etiam pellentesque in arcu sed blandit. Etiam tristique feugiat orci at euismod. Ut tortor nisl, ullamcorper eu enim sed, vehicula pellentesque sem.
             </p>
-                </div>
-            <button class="gallery" id="gallery">VIEW GALLERY</button>
+          <button class="gallery" id="gallery">VIEW GALLERY</button>
           </div>
+      </div>
+        </div>
         </div>
       </div>
       <div class="container">
         <div class="drink">
-          <div class="row">
-            <div class="col-md-6">
-              <div id="column2">
-                <img src="img/drink1.jpg">
+            <div class="col-lg-6" id="drinks">
+              <img src="img/drink1.jpg">
                 <img src="img/drink2.jpg">
               </div>
             </div>
-
                 <div class="text2">
+                  <div class="col-lg-6">
               <h1>Drinks<h1>
               <h2>we also produce drinks</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus molestie semper rhoncus. Mauris lobortis purus lacus, id fermentum massa tristique in. Phasellus sed faucibus ex. Pellentesque condimentum vestibulum arcu, nec pretium mi iaculis ut. Nam a ante condimentum, pellentesque augue eu, vestibulum lorem. Pellentesque laoreet ante lacus. Nunc non nulla dolor. Morbi tincidunt, lorem in malesuada pretium, ipsum arcu egestas eros, eu condimentum neque elit id augue. Pellentesque habitant morbi tristique sed interdum velit ligula, et sollicitudin tellus volutpat id. Etiam pellentesque in arcu sed blandit. Etiam tristique feugiat orci at euismod. Ut tortor nisl, ullamcorper eu enim sed, vehicula pellentesque sem.
               </p>
               <button class="gallery" id="gallery">VIEW GALLERY</button>
+            </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <div class="container">
         <div class="row">
-
-          <div class="column"><img src="img/beefBurger.jpg"></div>
-            <div class="column"><img src="img/chickenBurger.jpg"></div>
-              <div class="column"><img src="img/chickenPizza.jpg"></div>
+<div class="textbox">
+          <div class="col-md-4"><img src="img/beefBurger.jpg"></div>
+            <div class="col-md-4"><img src="img/chickenBurger.jpg"></div>
+              <div class="col-md-4"><img src="img/chickenPizza.jpg"></div>
         </div>
         </div>
-
+      </div>
       <div class="container">
           <div class="row">
+
             <div class="column"><img src="img/p1.png/"></div>
               <div class="column"><img src="img/p2.png"></div>
                 <div class="column"><img src="img/p3.png"></div>
           </div>
       </div>
-              <div class="row">
+<div class="container">
+  <div class="row">
 
+  </div>
               </div>
   </body>
 
