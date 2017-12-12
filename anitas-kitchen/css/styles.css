@@ -169,3 +169,6 @@ display: block;
     transform: translate(-50%, -50%);
     color: white;
 }
+.centered :hover {
+  color: black;
+}
