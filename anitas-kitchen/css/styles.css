@@ -48,8 +48,6 @@ margin: auto;
   text-align: left;
 }
 
-
-
 }
 #drink {
   border: 3px white;
@@ -58,14 +56,12 @@ margin: auto;
   width:;
   text-align: right;
   float: left;
-
 }
-
 
 .gallery {
   color:#F15A29;
-
 }
+
 #party-time {
   background-color:#F15A29;
 }
@@ -84,5 +80,29 @@ margin: auto;
 }
 
 #text2 {
+  float: left;
+  text-align: right;
+}
+#drinks {
   float: right;
+  border: 2px white;
+  padding: 2px;
+  box-shadow: 5px 5px 5px 5px #ccc;
+}
+
+.food-box {
+  background-image: url(../img/foodsBg.jpg);
+  height: 599px;
+}
+li {
+  display: inline-block;
+  margin: auto;w}
+.text-box {
+  background-color:;
+  border: ;
+  padding:15%;
+}
+ul {
+  background-color: white;
+  padding: 2%;
 }
